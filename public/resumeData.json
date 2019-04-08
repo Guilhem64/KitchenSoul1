@@ -1,0 +1,135 @@
+{
+  "main": {
+    "name":"Kitchen Soul",
+    "occupation":"Scanne de Produit",
+    "description":"super scanne de produit, premier projet d'une longue liste",
+    "image":"eat-variety-healthy-foods-image-min.jpg",
+    "bio":"Premiers gros projet REACT, l'application arrive soon !!! Le site est une application scanne pour vos produits favoris et blablabla sa me soule d'ecrire",
+    "contactmessage":"Si vous avez des commentaires ou des questions n'hesitez pas.",
+    "email": "kitchensoul@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"#",
+      "city":"Bayonne",
+      "state":"France",
+      "zip": "64100"
+    },
+    "website": "#",
+    "resumedownload":"#",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Barre de progression sur l'avancement des produits disponibles en magasin sur notre app",
+   
+    "work":[
+      {
+        "company":"Implantation de l'application",
+        "title":"en cours de developement  ",
+        "years":"Mars 2019 - Present",
+        "description":"L'application arrive prochainement, il nous reste encores quelques fonctionnalites a implementer"
+      },
+      {
+        "company":"New projets",
+        "title":"en cours de developpement",
+        "years":"2019",
+        "description":"Un nouveau projet verra bientot le jour. revenez nous voir regulierement"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Produit carrefour scanne",
+        "level":"95%"
+      },
+      {
+        "name":"Produit Leclerc scanne",
+        "level":"90%"
+      },
+      {
+        "name":"Produit Casino scanne",
+        "level":"93%"
+      },
+      {
+        "name":"Produit autres magasin scanne",
+        "level":"63%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+
+      {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "Open Food Facts",
+        "url" : "https://ssl-api.openfoodfacts.org",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ssl-api.openfoodfacts.org/cgi/search.pl?search_terms=?{search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "url": "https://ssl-api.openfoodfacts.org",
+        "logo": "https://static.openfoodfacts.org/images/misc/openfoodfacts-logo-en-178x150.png",
+        "name": "Open Food Facts",
+        "sameAs" : [ "https://www.facebook.com/OpenFoodFacts", "https://twitter.com/OpenFoodFacts"]
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"test API qui fonctionne pas",
+        "image":"original-thai-food.jpg",
+        "url":"#"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Wow ce site est fantastique, jadore. Vivement l'app",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"Amazing web site and technologie, Good job",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
