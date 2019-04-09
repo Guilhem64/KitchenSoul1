@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import QrReader from 'react-qr-reader'
 
 class Portfolio extends Component {
   render() {
@@ -32,7 +33,6 @@ class Portfolio extends Component {
 
             <h1>Code barre</h1>
             <h2>Entrer le numero du code barre ici</h2>
-
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
             </div>
