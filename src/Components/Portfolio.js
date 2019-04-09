@@ -32,7 +32,7 @@ class Portfolio extends Component {
          <div className="twelve columns collapsed">
 
             <h1>Code barre</h1>
-            <h2>Entrer le numero du code barre ici</h2>
+            <h1>Passer votre produits devant la camera de votre ordinateur</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
             </div>

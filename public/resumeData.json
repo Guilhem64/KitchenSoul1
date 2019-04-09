@@ -90,36 +90,7 @@
       }
     ]
   },
-  "portfolio":{
-    "projects": [
-
-      {
-        "@context" : "https://schema.org",
-        "@type" : "WebSite",
-        "name" : "Open Food Facts",
-        "url" : "https://ssl-api.openfoodfacts.org",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://ssl-api.openfoodfacts.org/cgi/search.pl?search_terms=?{search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@context": "https://schema.org/",
-        "@type": "Organization",
-        "url": "https://ssl-api.openfoodfacts.org",
-        "logo": "https://static.openfoodfacts.org/images/misc/openfoodfacts-logo-en-178x150.png",
-        "name": "Open Food Facts",
-        "sameAs" : [ "https://www.facebook.com/OpenFoodFacts", "https://twitter.com/OpenFoodFacts"]
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"test API qui fonctionne pas",
-        "image":"original-thai-food.jpg",
-        "url":"#"
-      }
-    ]
-  },
+ 
   "testimonials":{
     "testimonials":[
       {

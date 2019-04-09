@@ -23,7 +23,9 @@ class Codebare extends Component {
           delay={300}
           onError={this.handleError}
           onScan={this.handleScan}
-          style={{ width: '20%' , background: '#00CCCC' }}
+          onLoad={this.handleLoad}
+          style={{ width: '27%' }}
+          onImageLoad={this.handleImageLoad}
         />
         <p>{this.state.result}</p>
       </div>
