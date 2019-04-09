@@ -18,16 +18,16 @@ class Codebare extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{background : 'rgb(113, 196, 140)'}}>
         <QrReader
           delay={300}
           onError={this.handleError}
           onScan={this.handleScan}
           onLoad={this.handleLoad}
-          style={{ width: '27%' }}
           onImageLoad={this.handleImageLoad}
+          style={{width : '27%', margin :'1.6%' , padding : '24px' }} 
         />
-        <p>{this.state.result}</p>
+        <p style={{textAlign:'center', color : 'red'}}>ici ==>  {this.state.result}</p>
       </div>
     )
   }
