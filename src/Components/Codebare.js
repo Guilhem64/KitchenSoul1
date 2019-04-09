@@ -23,7 +23,7 @@ class Codebare extends Component {
           delay={300}
           onError={this.handleError}
           onScan={this.handleScan}
-          style={{ width: '100%' }}
+          style={{ width: '20%' , background: '#00CCCC' }}
         />
         <p>{this.state.result}</p>
       </div>
